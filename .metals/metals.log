@@ -1,0 +1,697 @@
+2021.01.21 12:06:25 INFO  Started: Metals version 0.9.8 in workspace '/home/vitalis/repos/reactiveWeek5' for client sublime.
+2021.01.21 12:06:29 INFO  time: initialize in 3.17s
+2021.01.21 12:06:30 WARN  Build server is not auto-connectable.
+2021.01.21 12:06:30 INFO  Selected port 5031
+2021.01.21 12:06:30 WARN  no build target for: /home/vitalis/repos/reactiveWeek5/build.sbt
+2021.01.21 12:06:30 WARN  no build target for: /home/vitalis/repos/reactiveWeek5/src/main/scala/reactive/HelloWorld.scala
+Jan 21, 2021 12:06:31 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.3.Final
+Jan 21, 2021 12:06:31 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.4.Final
+Jan 21, 2021 12:06:31 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.4.Final
+Jan 21, 2021 12:06:31 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2021.01.21 12:06:30 INFO  Started Metals http server at http://127.0.0.1:5031
+2021.01.21 12:06:32 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals8448609427150070996/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2021.01.21 12:06:37 INFO  no build target: using presentation compiler with only scala-library
+2021.01.21 12:06:51 INFO  [info] Loading settings for project reactiveweek5-build-build from metals.sbt ...
+2021.01.21 12:06:52 INFO  [info] Loading project definition from /home/vitalis/repos/reactiveWeek5/project/project
+2021.01.21 12:06:52 INFO  [info] Updating ProjectRef(uri("file:/home/vitalis/repos/reactiveWeek5/project/project/"), "reactiveweek5-build-build")...
+2021.01.21 12:07:10 INFO  [info] downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.7/gson-2.7.jar ...
+2021.01.21 12:07:10 INFO  [info] downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar ...
+2021.01.21 12:07:10 INFO  [info] 	[SUCCESSFUL ] com.google.code.findbugs#jsr305;3.0.2!jsr305.jar (494ms)
+2021.01.21 12:07:10 INFO  [info] 	[SUCCESSFUL ] com.google.code.gson#gson;2.7!gson.jar (514ms)
+2021.01.21 12:07:12 INFO  [info] downloading https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.6-15-209c2a5c/sbt-bloop-1.4.6-15-209c2a5c.jar ...
+2021.01.21 12:07:17 INFO  [info] 	[SUCCESSFUL ] ch.epfl.scala#sbt-bloop;1.4.6-15-209c2a5c!sbt-bloop.jar (6869ms)
+2021.01.21 12:07:17 INFO  [info] Done updating.
+2021.01.21 12:07:22 INFO  [info] Loading settings for project reactiveweek5-build from metals.sbt ...
+2021.01.21 12:07:22 INFO  [error] java.lang.NoSuchMethodError: 'sbt.SettingKey sbt.Keys$.reresolveSbtArtifacts()'
+2021.01.21 12:07:22 INFO  [error] 	at bloop.integrations.sbt.Compat$.<init>(Compat.scala:40)
+2021.01.21 12:07:22 INFO  [error] 	at bloop.integrations.sbt.Compat$.<clinit>(Compat.scala)
+2021.01.21 12:07:22 INFO  [error] 	at bloop.integrations.sbt.BloopDefaults$.globalSettings$lzycompute(SbtBloop.scala:164)
+2021.01.21 12:07:22 INFO  [error] 	at bloop.integrations.sbt.BloopDefaults$.globalSettings(SbtBloop.scala:164)
+2021.01.21 12:07:22 INFO  [error] 	at bloop.integrations.sbt.BloopPlugin$.globalSettings(SbtBloop.scala:43)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.GroupedAutoPlugins.$anonfun$globalSettings$1(GroupedAutoPlugins.scala:18)
+2021.01.21 12:07:22 INFO  [error] 	at scala.collection.immutable.Stream.flatMap(Stream.scala:485)
+2021.01.21 12:07:22 INFO  [error] 	at scala.collection.immutable.Stream.$anonfun$flatMap$1(Stream.scala:493)
+2021.01.21 12:07:22 INFO  [error] 	at scala.collection.immutable.Stream.$anonfun$append$1(Stream.scala:251)
+2021.01.21 12:07:22 INFO  [error] 	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1167)
+2021.01.21 12:07:22 INFO  [error] 	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1157)
+2021.01.21 12:07:22 INFO  [error] 	at scala.collection.immutable.Stream.$anonfun$map$1(Stream.scala:414)
+2021.01.21 12:07:22 INFO  [error] 	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1167)
+2021.01.21 12:07:22 INFO  [error] 	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1157)
+2021.01.21 12:07:22 INFO  [error] 	at scala.collection.generic.Growable.loop$1(Growable.scala:53)
+2021.01.21 12:07:22 INFO  [error] 	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:57)
+2021.01.21 12:07:22 INFO  [error] 	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:49)
+2021.01.21 12:07:22 INFO  [error] 	at scala.collection.mutable.ListBuffer.$plus$plus$eq(ListBuffer.scala:185)
+2021.01.21 12:07:22 INFO  [error] 	at scala.collection.mutable.ListBuffer.$plus$plus$eq(ListBuffer.scala:43)
+2021.01.21 12:07:22 INFO  [error] 	at scala.collection.TraversableLike.$plus$plus(TraversableLike.scala:146)
+2021.01.21 12:07:22 INFO  [error] 	at scala.collection.TraversableLike.$plus$plus$(TraversableLike.scala:142)
+2021.01.21 12:07:22 INFO  [error] 	at scala.collection.immutable.List.$plus$plus(List.scala:206)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.buildConfigurations(Load.scala:379)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.$anonfun$apply$3(Load.scala:258)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.timed(Load.scala:1395)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.apply(Load.scala:258)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.buildPluginDefinition(Load.scala:1312)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.buildPlugins(Load.scala:1242)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.plugins(Load.scala:1225)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.$anonfun$loadUnit$2(Load.scala:694)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.timed(Load.scala:1395)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.$anonfun$loadUnit$1(Load.scala:694)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.timed(Load.scala:1395)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.loadUnit(Load.scala:688)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.$anonfun$builtinLoader$4(Load.scala:484)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.BuildLoader$.$anonfun$componentLoader$5(BuildLoader.scala:176)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.BuildLoader.apply(BuildLoader.scala:241)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.loadURI$1(Load.scala:546)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.loadAll(Load.scala:562)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.loadURI(Load.scala:492)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.load(Load.scala:471)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.$anonfun$apply$1(Load.scala:251)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.timed(Load.scala:1395)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.apply(Load.scala:251)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.Load$.defaultLoad(Load.scala:69)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.BuiltinCommands$.liftedTree1$1(Main.scala:829)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.BuiltinCommands$.doLoadProject(Main.scala:829)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.BuiltinCommands$.$anonfun$loadProjectImpl$2(Main.scala:800)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.Command$.$anonfun$applyEffect$4(Command.scala:142)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.Command$.$anonfun$applyEffect$2(Command.scala:137)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.Command$.process(Command.scala:181)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.MainLoop$.processCommand(MainLoop.scala:151)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.MainLoop$.$anonfun$next$2(MainLoop.scala:139)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.State$$anon$1.runCmd$1(State.scala:246)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.State$$anon$1.process(State.scala:250)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.MainLoop$.$anonfun$next$1(MainLoop.scala:139)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.MainLoop$.next(MainLoop.scala:139)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.MainLoop$.run(MainLoop.scala:132)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.MainLoop$.$anonfun$runWithNewLog$1(MainLoop.scala:110)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.io.Using.apply(Using.scala:22)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.MainLoop$.runWithNewLog(MainLoop.scala:104)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.MainLoop$.runAndClearLast(MainLoop.scala:59)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.MainLoop$.runLoggedLoop(MainLoop.scala:44)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.MainLoop$.runLogged(MainLoop.scala:35)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.StandardMain$.runManaged(Main.scala:138)
+2021.01.21 12:07:22 INFO  [error] 	at sbt.xMain.run(Main.scala:89)
+2021.01.21 12:07:22 INFO  [error] 	at xsbt.boot.Launch$$anonfun$run$1.apply(Launch.scala:111)
+2021.01.21 12:07:22 INFO  [error] 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:130)
+2021.01.21 12:07:22 INFO  [error] 	at xsbt.boot.Launch$.run(Launch.scala:111)
+2021.01.21 12:07:22 INFO  [error] 	at xsbt.boot.Launch$$anonfun$apply$1.apply(Launch.scala:37)
+2021.01.21 12:07:22 INFO  [error] 	at xsbt.boot.Launch$.launch(Launch.scala:119)
+2021.01.21 12:07:22 INFO  [error] 	at xsbt.boot.Launch$.apply(Launch.scala:20)
+2021.01.21 12:07:22 INFO  [error] 	at xsbt.boot.Boot$.runImpl(Boot.scala:56)
+2021.01.21 12:07:22 INFO  [error] 	at xsbt.boot.Boot$.main(Boot.scala:18)
+2021.01.21 12:07:22 INFO  [error] 	at xsbt.boot.Boot.main(Boot.scala)
+2021.01.21 12:07:22 INFO  Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? [error] java.lang.NoSuchMethodError: 'sbt.SettingKey sbt.Keys$.reresolveSbtArtifacts()'
+2021.01.21 12:07:22 INFO  [error] Use 'last' for the full log.
+2021.01.21 12:07:22 INFO  sbt bloopInstall exit: 1
+2021.01.21 12:07:22 INFO  time: ran 'sbt bloopInstall' in 49s
+2021.01.21 12:07:22 ERROR sbt command failed: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals8448609427150070996/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2021.01.21 12:07:43 WARN  no build target for: /home/vitalis/repos/reactiveWeek5/src/main/scala/reactive/HelloWorld.scala
+2021.01.21 12:15:30 WARN  no build target for: /home/vitalis/repos/reactiveWeek5/build.sbt
+2021.01.21 12:18:14 INFO  shutting down Metals
+Jan 21, 2021 12:18:14 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.3.Final
+2021.01.21 12:21:46 INFO  Started: Metals version 0.9.8 in workspace '/home/vitalis/repos/reactiveWeek5' for client sublime.
+2021.01.21 12:21:49 INFO  time: initialize in 3.34s
+2021.01.21 12:21:51 WARN  Build server is not auto-connectable.
+2021.01.21 12:21:51 INFO  Selected port 5031
+2021.01.21 12:21:51 WARN  no build target for: /home/vitalis/repos/reactiveWeek5/build.sbt
+2021.01.21 12:21:51 WARN  no build target for: /home/vitalis/repos/reactiveWeek5/src/main/scala/reactive/HelloWorld.scala
+Jan 21, 2021 12:21:51 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.3.Final
+Jan 21, 2021 12:21:51 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.4.Final
+2021.01.21 12:21:51 INFO  skipping build import with status 'Failed'
+Jan 21, 2021 12:21:51 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.4.Final
+Jan 21, 2021 12:21:52 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2021.01.21 12:21:51 INFO  Started Metals http server at http://127.0.0.1:5031
+2021.01.21 12:21:57 INFO  no build target: using presentation compiler with only scala-library
+2021.01.21 12:23:33 WARN  no build target for: /home/vitalis/repos/reactiveWeek5/build.sbt
+2021.01.21 12:23:35 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals12540659570961520654/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2021.01.21 12:23:42 INFO  [info] Loading settings for project reactiveweek5-build-build from metals.sbt ...
+2021.01.21 12:23:43 INFO  [info] Loading project definition from /home/vitalis/repos/reactiveWeek5/project/project
+2021.01.21 12:23:46 INFO  [info] Loading settings for project reactiveweek5-build from metals.sbt ...
+2021.01.21 12:23:46 INFO  [error] java.lang.NoSuchMethodError: 'sbt.SettingKey sbt.Keys$.reresolveSbtArtifacts()'
+2021.01.21 12:23:46 INFO  [error] 	at bloop.integrations.sbt.Compat$.<init>(Compat.scala:40)
+2021.01.21 12:23:46 INFO  [error] 	at bloop.integrations.sbt.Compat$.<clinit>(Compat.scala)
+2021.01.21 12:23:46 INFO  [error] 	at bloop.integrations.sbt.BloopDefaults$.globalSettings$lzycompute(SbtBloop.scala:164)
+2021.01.21 12:23:46 INFO  [error] 	at bloop.integrations.sbt.BloopDefaults$.globalSettings(SbtBloop.scala:164)
+2021.01.21 12:23:46 INFO  [error] 	at bloop.integrations.sbt.BloopPlugin$.globalSettings(SbtBloop.scala:43)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.GroupedAutoPlugins.$anonfun$globalSettings$1(GroupedAutoPlugins.scala:18)
+2021.01.21 12:23:46 INFO  [error] 	at scala.collection.immutable.Stream.flatMap(Stream.scala:485)
+2021.01.21 12:23:46 INFO  [error] 	at scala.collection.immutable.Stream.$anonfun$flatMap$1(Stream.scala:493)
+2021.01.21 12:23:46 INFO  [error] 	at scala.collection.immutable.Stream.$anonfun$append$1(Stream.scala:251)
+2021.01.21 12:23:46 INFO  [error] 	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1167)
+2021.01.21 12:23:46 INFO  [error] 	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1157)
+2021.01.21 12:23:46 INFO  [error] 	at scala.collection.immutable.Stream.$anonfun$map$1(Stream.scala:414)
+2021.01.21 12:23:46 INFO  [error] 	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1167)
+2021.01.21 12:23:46 INFO  [error] 	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1157)
+2021.01.21 12:23:46 INFO  [error] 	at scala.collection.generic.Growable.loop$1(Growable.scala:53)
+2021.01.21 12:23:46 INFO  [error] 	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:57)
+2021.01.21 12:23:46 INFO  [error] 	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:49)
+2021.01.21 12:23:46 INFO  [error] 	at scala.collection.mutable.ListBuffer.$plus$plus$eq(ListBuffer.scala:185)
+2021.01.21 12:23:46 INFO  [error] 	at scala.collection.mutable.ListBuffer.$plus$plus$eq(ListBuffer.scala:43)
+2021.01.21 12:23:46 INFO  [error] 	at scala.collection.TraversableLike.$plus$plus(TraversableLike.scala:146)
+2021.01.21 12:23:46 INFO  [error] 	at scala.collection.TraversableLike.$plus$plus$(TraversableLike.scala:142)
+2021.01.21 12:23:46 INFO  [error] 	at scala.collection.immutable.List.$plus$plus(List.scala:206)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.buildConfigurations(Load.scala:379)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.$anonfun$apply$3(Load.scala:258)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.timed(Load.scala:1395)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.apply(Load.scala:258)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.buildPluginDefinition(Load.scala:1312)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.buildPlugins(Load.scala:1242)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.plugins(Load.scala:1225)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.$anonfun$loadUnit$2(Load.scala:694)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.timed(Load.scala:1395)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.$anonfun$loadUnit$1(Load.scala:694)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.timed(Load.scala:1395)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.loadUnit(Load.scala:688)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.$anonfun$builtinLoader$4(Load.scala:484)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.BuildLoader$.$anonfun$componentLoader$5(BuildLoader.scala:176)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.BuildLoader.apply(BuildLoader.scala:241)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.loadURI$1(Load.scala:546)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.loadAll(Load.scala:562)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.loadURI(Load.scala:492)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.load(Load.scala:471)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.$anonfun$apply$1(Load.scala:251)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.timed(Load.scala:1395)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.apply(Load.scala:251)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.Load$.defaultLoad(Load.scala:69)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.BuiltinCommands$.liftedTree1$1(Main.scala:829)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.BuiltinCommands$.doLoadProject(Main.scala:829)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.BuiltinCommands$.$anonfun$loadProjectImpl$2(Main.scala:800)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.Command$.$anonfun$applyEffect$4(Command.scala:142)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.Command$.$anonfun$applyEffect$2(Command.scala:137)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.Command$.process(Command.scala:181)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.MainLoop$.processCommand(MainLoop.scala:151)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.MainLoop$.$anonfun$next$2(MainLoop.scala:139)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.State$$anon$1.runCmd$1(State.scala:246)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.State$$anon$1.process(State.scala:250)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.MainLoop$.$anonfun$next$1(MainLoop.scala:139)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.MainLoop$.next(MainLoop.scala:139)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.MainLoop$.run(MainLoop.scala:132)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.MainLoop$.$anonfun$runWithNewLog$1(MainLoop.scala:110)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.io.Using.apply(Using.scala:22)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.MainLoop$.runWithNewLog(MainLoop.scala:104)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.MainLoop$.runAndClearLast(MainLoop.scala:59)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.MainLoop$.runLoggedLoop(MainLoop.scala:44)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.MainLoop$.runLogged(MainLoop.scala:35)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.StandardMain$.runManaged(Main.scala:138)
+2021.01.21 12:23:46 INFO  [error] 	at sbt.xMain.run(Main.scala:89)
+2021.01.21 12:23:46 INFO  [error] 	at xsbt.boot.Launch$$anonfun$run$1.apply(Launch.scala:111)
+2021.01.21 12:23:46 INFO  [error] 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:130)
+2021.01.21 12:23:46 INFO  [error] 	at xsbt.boot.Launch$.run(Launch.scala:111)
+2021.01.21 12:23:46 INFO  [error] 	at xsbt.boot.Launch$$anonfun$apply$1.apply(Launch.scala:37)
+2021.01.21 12:23:46 INFO  [error] 	at xsbt.boot.Launch$.launch(Launch.scala:119)
+2021.01.21 12:23:46 INFO  [error] 	at xsbt.boot.Launch$.apply(Launch.scala:20)
+2021.01.21 12:23:46 INFO  [error] 	at xsbt.boot.Boot$.runImpl(Boot.scala:56)
+2021.01.21 12:23:46 INFO  [error] 	at xsbt.boot.Boot$.main(Boot.scala:18)
+2021.01.21 12:23:46 INFO  [error] 	at xsbt.boot.Boot.main(Boot.scala)
+2021.01.21 12:23:46 INFO  [error] java.lang.NoSuchMethodError: 'sbt.SettingKey sbt.Keys$.reresolveSbtArtifacts()'
+2021.01.21 12:23:46 INFO  [error] Use 'last' for the full log.
+2021.01.21 12:23:46 INFO  Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? 
+2021.01.21 12:23:46 INFO  sbt bloopInstall exit: 1
+2021.01.21 12:23:46 INFO  time: ran 'sbt bloopInstall' in 11s
+2021.01.21 12:23:46 ERROR sbt command failed: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals12540659570961520654/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2021.01.21 12:24:47 WARN  no build target for: /home/vitalis/repos/reactiveWeek5/build.sbt
+2021.01.21 12:24:47 INFO  skipping build import with status 'Failed'
+2021.01.21 12:24:57 WARN  no build target for: /home/vitalis/repos/reactiveWeek5/build.sbt
+2021.01.21 12:25:00 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals10084830479566135480/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2021.01.21 12:25:07 INFO  [info] Loading settings for project reactiveweek5-build-build from metals.sbt ...
+2021.01.21 12:25:08 INFO  [info] Loading project definition from /home/vitalis/repos/reactiveWeek5/project/project
+2021.01.21 12:25:11 INFO  [info] Loading settings for project reactiveweek5-build from metals.sbt ...
+2021.01.21 12:25:11 INFO  [error] java.lang.NoSuchMethodError: 'sbt.SettingKey sbt.Keys$.reresolveSbtArtifacts()'
+2021.01.21 12:25:11 INFO  [error] 	at bloop.integrations.sbt.Compat$.<init>(Compat.scala:40)
+2021.01.21 12:25:11 INFO  [error] 	at bloop.integrations.sbt.Compat$.<clinit>(Compat.scala)
+2021.01.21 12:25:11 INFO  [error] 	at bloop.integrations.sbt.BloopDefaults$.globalSettings$lzycompute(SbtBloop.scala:164)
+2021.01.21 12:25:11 INFO  [error] 	at bloop.integrations.sbt.BloopDefaults$.globalSettings(SbtBloop.scala:164)
+2021.01.21 12:25:11 INFO  [error] 	at bloop.integrations.sbt.BloopPlugin$.globalSettings(SbtBloop.scala:43)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.GroupedAutoPlugins.$anonfun$globalSettings$1(GroupedAutoPlugins.scala:18)
+2021.01.21 12:25:11 INFO  [error] 	at scala.collection.immutable.Stream.flatMap(Stream.scala:485)
+2021.01.21 12:25:11 INFO  [error] 	at scala.collection.immutable.Stream.$anonfun$flatMap$1(Stream.scala:493)
+2021.01.21 12:25:11 INFO  [error] 	at scala.collection.immutable.Stream.$anonfun$append$1(Stream.scala:251)
+2021.01.21 12:25:11 INFO  [error] 	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1167)
+2021.01.21 12:25:11 INFO  [error] 	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1157)
+2021.01.21 12:25:11 INFO  [error] 	at scala.collection.immutable.Stream.$anonfun$map$1(Stream.scala:414)
+2021.01.21 12:25:11 INFO  [error] 	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1167)
+2021.01.21 12:25:11 INFO  [error] 	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1157)
+2021.01.21 12:25:11 INFO  [error] 	at scala.collection.generic.Growable.loop$1(Growable.scala:53)
+2021.01.21 12:25:11 INFO  [error] 	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:57)
+2021.01.21 12:25:11 INFO  [error] 	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:49)
+2021.01.21 12:25:11 INFO  [error] 	at scala.collection.mutable.ListBuffer.$plus$plus$eq(ListBuffer.scala:185)
+2021.01.21 12:25:11 INFO  [error] 	at scala.collection.mutable.ListBuffer.$plus$plus$eq(ListBuffer.scala:43)
+2021.01.21 12:25:11 INFO  [error] 	at scala.collection.TraversableLike.$plus$plus(TraversableLike.scala:146)
+2021.01.21 12:25:11 INFO  [error] 	at scala.collection.TraversableLike.$plus$plus$(TraversableLike.scala:142)
+2021.01.21 12:25:11 INFO  [error] 	at scala.collection.immutable.List.$plus$plus(List.scala:206)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.buildConfigurations(Load.scala:379)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.$anonfun$apply$3(Load.scala:258)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.timed(Load.scala:1395)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.apply(Load.scala:258)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.buildPluginDefinition(Load.scala:1312)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.buildPlugins(Load.scala:1242)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.plugins(Load.scala:1225)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.$anonfun$loadUnit$2(Load.scala:694)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.timed(Load.scala:1395)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.$anonfun$loadUnit$1(Load.scala:694)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.timed(Load.scala:1395)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.loadUnit(Load.scala:688)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.$anonfun$builtinLoader$4(Load.scala:484)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.BuildLoader$.$anonfun$componentLoader$5(BuildLoader.scala:176)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.BuildLoader.apply(BuildLoader.scala:241)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.loadURI$1(Load.scala:546)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.loadAll(Load.scala:562)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.loadURI(Load.scala:492)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.load(Load.scala:471)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.$anonfun$apply$1(Load.scala:251)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.timed(Load.scala:1395)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.apply(Load.scala:251)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.Load$.defaultLoad(Load.scala:69)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.BuiltinCommands$.liftedTree1$1(Main.scala:829)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.BuiltinCommands$.doLoadProject(Main.scala:829)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.BuiltinCommands$.$anonfun$loadProjectImpl$2(Main.scala:800)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.Command$.$anonfun$applyEffect$4(Command.scala:142)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.Command$.$anonfun$applyEffect$2(Command.scala:137)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.Command$.process(Command.scala:181)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.MainLoop$.processCommand(MainLoop.scala:151)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.MainLoop$.$anonfun$next$2(MainLoop.scala:139)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.State$$anon$1.runCmd$1(State.scala:246)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.State$$anon$1.process(State.scala:250)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.MainLoop$.$anonfun$next$1(MainLoop.scala:139)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.MainLoop$.next(MainLoop.scala:139)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.MainLoop$.run(MainLoop.scala:132)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.MainLoop$.$anonfun$runWithNewLog$1(MainLoop.scala:110)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.io.Using.apply(Using.scala:22)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.MainLoop$.runWithNewLog(MainLoop.scala:104)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.MainLoop$.runAndClearLast(MainLoop.scala:59)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.MainLoop$.runLoggedLoop(MainLoop.scala:44)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.MainLoop$.runLogged(MainLoop.scala:35)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.StandardMain$.runManaged(Main.scala:138)
+2021.01.21 12:25:11 INFO  [error] 	at sbt.xMain.run(Main.scala:89)
+2021.01.21 12:25:11 INFO  [error] 	at xsbt.boot.Launch$$anonfun$run$1.apply(Launch.scala:111)
+2021.01.21 12:25:11 INFO  [error] 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:130)
+2021.01.21 12:25:11 INFO  [error] 	at xsbt.boot.Launch$.run(Launch.scala:111)
+2021.01.21 12:25:11 INFO  [error] 	at xsbt.boot.Launch$$anonfun$apply$1.apply(Launch.scala:37)
+2021.01.21 12:25:11 INFO  [error] 	at xsbt.boot.Launch$.launch(Launch.scala:119)
+2021.01.21 12:25:11 INFO  [error] 	at xsbt.boot.Launch$.apply(Launch.scala:20)
+2021.01.21 12:25:11 INFO  [error] 	at xsbt.boot.Boot$.runImpl(Boot.scala:56)
+2021.01.21 12:25:11 INFO  [error] 	at xsbt.boot.Boot$.main(Boot.scala:18)
+2021.01.21 12:25:11 INFO  [error] 	at xsbt.boot.Boot.main(Boot.scala)
+2021.01.21 12:25:11 INFO  [error] java.lang.NoSuchMethodError: 'sbt.SettingKey sbt.Keys$.reresolveSbtArtifacts()'
+2021.01.21 12:25:11 INFO  [error] Use 'last' for the full log.
+2021.01.21 12:25:11 INFO  Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? 
+2021.01.21 12:25:11 INFO  sbt bloopInstall exit: 1
+2021.01.21 12:25:12 INFO  time: ran 'sbt bloopInstall' in 11s
+2021.01.21 12:25:12 ERROR sbt command failed: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals10084830479566135480/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2021.01.21 12:26:35 WARN  no build target for: /home/vitalis/repos/reactiveWeek5/build.sbt
+2021.01.21 12:26:38 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals17452702092116102606/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2021.01.21 12:26:46 INFO  [info] Loading settings for project reactiveweek5-build-build from metals.sbt ...
+2021.01.21 12:26:47 INFO  [info] Loading project definition from /home/vitalis/repos/reactiveWeek5/project/project
+2021.01.21 12:26:50 INFO  [info] Loading settings for project reactiveweek5-build from metals.sbt ...
+2021.01.21 12:26:50 INFO  [error] java.lang.NoSuchMethodError: 'sbt.SettingKey sbt.Keys$.reresolveSbtArtifacts()'
+2021.01.21 12:26:50 INFO  [error] 	at bloop.integrations.sbt.Compat$.<init>(Compat.scala:40)
+2021.01.21 12:26:50 INFO  [error] 	at bloop.integrations.sbt.Compat$.<clinit>(Compat.scala)
+2021.01.21 12:26:50 INFO  [error] 	at bloop.integrations.sbt.BloopDefaults$.globalSettings$lzycompute(SbtBloop.scala:164)
+2021.01.21 12:26:50 INFO  [error] 	at bloop.integrations.sbt.BloopDefaults$.globalSettings(SbtBloop.scala:164)
+2021.01.21 12:26:50 INFO  [error] 	at bloop.integrations.sbt.BloopPlugin$.globalSettings(SbtBloop.scala:43)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.GroupedAutoPlugins.$anonfun$globalSettings$1(GroupedAutoPlugins.scala:18)
+2021.01.21 12:26:50 INFO  [error] 	at scala.collection.immutable.Stream.flatMap(Stream.scala:485)
+2021.01.21 12:26:50 INFO  [error] 	at scala.collection.immutable.Stream.$anonfun$flatMap$1(Stream.scala:493)
+2021.01.21 12:26:50 INFO  [error] 	at scala.collection.immutable.Stream.$anonfun$append$1(Stream.scala:251)
+2021.01.21 12:26:50 INFO  [error] 	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1167)
+2021.01.21 12:26:50 INFO  [error] 	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1157)
+2021.01.21 12:26:50 INFO  [error] 	at scala.collection.immutable.Stream.$anonfun$map$1(Stream.scala:414)
+2021.01.21 12:26:50 INFO  [error] 	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1167)
+2021.01.21 12:26:50 INFO  [error] 	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1157)
+2021.01.21 12:26:50 INFO  [error] 	at scala.collection.generic.Growable.loop$1(Growable.scala:53)
+2021.01.21 12:26:50 INFO  [error] 	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:57)
+2021.01.21 12:26:50 INFO  [error] 	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:49)
+2021.01.21 12:26:50 INFO  [error] 	at scala.collection.mutable.ListBuffer.$plus$plus$eq(ListBuffer.scala:185)
+2021.01.21 12:26:50 INFO  [error] 	at scala.collection.mutable.ListBuffer.$plus$plus$eq(ListBuffer.scala:43)
+2021.01.21 12:26:50 INFO  [error] 	at scala.collection.TraversableLike.$plus$plus(TraversableLike.scala:146)
+2021.01.21 12:26:50 INFO  [error] 	at scala.collection.TraversableLike.$plus$plus$(TraversableLike.scala:142)
+2021.01.21 12:26:50 INFO  [error] 	at scala.collection.immutable.List.$plus$plus(List.scala:206)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.buildConfigurations(Load.scala:379)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.$anonfun$apply$3(Load.scala:258)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.timed(Load.scala:1395)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.apply(Load.scala:258)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.buildPluginDefinition(Load.scala:1312)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.buildPlugins(Load.scala:1242)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.plugins(Load.scala:1225)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.$anonfun$loadUnit$2(Load.scala:694)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.timed(Load.scala:1395)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.$anonfun$loadUnit$1(Load.scala:694)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.timed(Load.scala:1395)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.loadUnit(Load.scala:688)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.$anonfun$builtinLoader$4(Load.scala:484)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.BuildLoader$.$anonfun$componentLoader$5(BuildLoader.scala:176)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.BuildLoader.apply(BuildLoader.scala:241)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.loadURI$1(Load.scala:546)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.loadAll(Load.scala:562)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.loadURI(Load.scala:492)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.load(Load.scala:471)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.$anonfun$apply$1(Load.scala:251)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.timed(Load.scala:1395)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.apply(Load.scala:251)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.Load$.defaultLoad(Load.scala:69)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.BuiltinCommands$.liftedTree1$1(Main.scala:829)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.BuiltinCommands$.doLoadProject(Main.scala:829)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.BuiltinCommands$.$anonfun$loadProjectImpl$2(Main.scala:800)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.Command$.$anonfun$applyEffect$4(Command.scala:142)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.Command$.$anonfun$applyEffect$2(Command.scala:137)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.Command$.process(Command.scala:181)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.MainLoop$.processCommand(MainLoop.scala:151)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.MainLoop$.$anonfun$next$2(MainLoop.scala:139)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.State$$anon$1.runCmd$1(State.scala:246)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.State$$anon$1.process(State.scala:250)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.MainLoop$.$anonfun$next$1(MainLoop.scala:139)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.MainLoop$.next(MainLoop.scala:139)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.MainLoop$.run(MainLoop.scala:132)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.MainLoop$.$anonfun$runWithNewLog$1(MainLoop.scala:110)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.io.Using.apply(Using.scala:22)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.MainLoop$.runWithNewLog(MainLoop.scala:104)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.MainLoop$.runAndClearLast(MainLoop.scala:59)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.MainLoop$.runLoggedLoop(MainLoop.scala:44)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.MainLoop$.runLogged(MainLoop.scala:35)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.StandardMain$.runManaged(Main.scala:138)
+2021.01.21 12:26:50 INFO  [error] 	at sbt.xMain.run(Main.scala:89)
+2021.01.21 12:26:50 INFO  [error] 	at xsbt.boot.Launch$$anonfun$run$1.apply(Launch.scala:111)
+2021.01.21 12:26:50 INFO  [error] 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:130)
+2021.01.21 12:26:50 INFO  [error] 	at xsbt.boot.Launch$.run(Launch.scala:111)
+2021.01.21 12:26:50 INFO  [error] 	at xsbt.boot.Launch$$anonfun$apply$1.apply(Launch.scala:37)
+2021.01.21 12:26:50 INFO  [error] 	at xsbt.boot.Launch$.launch(Launch.scala:119)
+2021.01.21 12:26:50 INFO  [error] 	at xsbt.boot.Launch$.apply(Launch.scala:20)
+2021.01.21 12:26:50 INFO  [error] 	at xsbt.boot.Boot$.runImpl(Boot.scala:56)
+2021.01.21 12:26:50 INFO  [error] 	at xsbt.boot.Boot$.main(Boot.scala:18)
+2021.01.21 12:26:50 INFO  [error] 	at xsbt.boot.Boot.main(Boot.scala)
+2021.01.21 12:26:50 INFO  [error] java.lang.NoSuchMethodError: 'sbt.SettingKey sbt.Keys$.reresolveSbtArtifacts()'
+2021.01.21 12:26:50 INFO  [error] Use 'last' for the full log.
+2021.01.21 12:26:50 INFO  Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? 
+2021.01.21 12:26:50 INFO  sbt bloopInstall exit: 1
+2021.01.21 12:26:51 INFO  time: ran 'sbt bloopInstall' in 12s
+2021.01.21 12:26:51 ERROR sbt command failed: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals17452702092116102606/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2021.01.21 12:27:46 WARN  no build target for: /home/vitalis/repos/reactiveWeek5/project/metals.sbt
+2021.01.21 12:28:00 WARN  no build target for: /home/vitalis/repos/reactiveWeek5/build.sbt
+2021.01.21 12:28:02 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals4110560883999060701/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2021.01.21 12:28:07 INFO  [info] welcome to sbt 1.4.5 (Ubuntu Java 11.0.9.1)
+2021.01.21 12:28:13 INFO  [info] loading settings for project reactiveweek5-build-build from metals.sbt ...
+2021.01.21 12:28:15 INFO  [info] loading project definition from /home/vitalis/repos/reactiveWeek5/project/project
+2021.01.21 12:28:21 INFO  [info] loading settings for project reactiveweek5-build from metals.sbt ...
+2021.01.21 12:28:21 INFO  [info] loading project definition from /home/vitalis/repos/reactiveWeek5/project
+2021.01.21 12:28:27 INFO  [success] Generated .bloop/reactiveweek5-build.json
+2021.01.21 12:28:27 INFO  [success] Total time: 7 s, completed Jan 21, 2021, 12:28:28 PM
+2021.01.21 12:28:31 INFO  [info] loading settings for project reactiveweek5 from build.sbt ...
+2021.01.21 12:28:31 INFO  [info] set current project to reactive (in build file:/home/vitalis/repos/reactiveWeek5/)
+2021.01.21 12:28:37 INFO  [success] Generated .bloop/reactiveweek5-test.json
+2021.01.21 12:28:37 INFO  [success] Generated .bloop/reactiveweek5.json
+2021.01.21 12:28:37 INFO  [success] Total time: 5 s, completed Jan 21, 2021, 12:28:37 PM
+2021.01.21 12:28:37 INFO  sbt bloopInstall exit: 0
+2021.01.21 12:28:38 INFO  time: ran 'sbt bloopInstall' in 36s
+2021.01.21 12:28:38 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher12112535320416078296/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/home/vitalis/repos/reactiveWeek5/.bloop'...
+[0m[32m[D][0m Loading project from '/home/vitalis/repos/reactiveWeek5/.bloop/reactiveweek5-test.json'
+[0m[32m[D][0m Loading project from '/home/vitalis/repos/reactiveWeek5/.bloop/reactiveweek5.json'
+[0m[32m[D][0m Missing analysis file for project 'reactiveweek5'
+[0m[32m[D][0m Missing analysis file for project 'reactiveweek5-test'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher12112535320416078296/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher12112535320416078296/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.21 12:28:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.01.21 12:28:38 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher14009858749336638093/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher14009858749336638093/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher14009858749336638093/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.21 12:28:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.01.21 12:28:38 INFO  time: connected to build server in 0.45s
+2021.01.21 12:28:38 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.01.21 12:28:38 INFO  time: imported build in 0.11s
+2021.01.21 12:28:42 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.01.21 12:28:48 INFO  time: indexed workspace in 9.99s
+2021.01.21 12:29:20 INFO  compiling reactiveweek5 (6 scala sources)
+2021.01.21 12:29:25 INFO  time: compiled reactiveweek5 in 5.02s
+2021.01.21 12:29:31 INFO  compiling reactiveweek5 (6 scala sources)
+2021.01.21 12:29:43 WARN  5 deprecations (since 2.13.3); re-run with -deprecation for details
+2021.01.21 12:29:43 INFO  time: compiled reactiveweek5 in 11s
+2021.01.21 13:32:17 INFO  shutting down Metals
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2021.01.21 13:32:17 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+2021.01.21 13:32:17 INFO  Shut down connection with build server.
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+Jan 21, 2021 1:32:18 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.3.Final
+2021.01.21 17:35:29 INFO  Started: Metals version 0.9.8 in workspace '/home/vitalis/repos/reactiveWeek5' for client sublime.
+2021.01.21 17:35:33 INFO  time: initialize in 3.61s
+2021.01.21 17:35:35 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+2021.01.21 17:35:35 INFO  Selected port 5031
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher16306913664110398735/bsp.socket'...
+Waiting for the bsp connection to come up...
+2021.01.21 17:35:35 WARN  no build target for: /home/vitalis/repos/reactiveWeek5/src/main/scala/reactive/BuyerSeller.scala
+Jan 21, 2021 5:35:35 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.3.Final
+Jan 21, 2021 5:35:35 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.4.Final
+Jan 21, 2021 5:35:35 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.4.Final
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher16306913664110398735/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher16306913664110398735/bsp.socket...
+2021.01.21 17:35:35 INFO  skipping build import with status 'Installed'
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.21 17:35:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+Jan 21, 2021 5:35:36 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2021.01.21 17:35:36 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher18103967373221710403/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher18103967373221710403/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher18103967373221710403/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.21 17:35:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.01.21 17:35:36 INFO  Started Metals http server at http://127.0.0.1:5031
+2021.01.21 17:35:36 INFO  time: connected to build server in 1.57s
+2021.01.21 17:35:36 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.01.21 17:35:36 INFO  time: imported build in 0.16s
+2021.01.21 17:35:44 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.01.21 17:35:45 INFO  time: indexed workspace in 8.82s
+2021.01.21 17:35:45 INFO  compiling reactiveweek5-test (1 scala source)
+2021.01.21 17:35:52 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2021.01.21 17:35:52 INFO  time: compiled reactiveweek5-test in 6.83s
+something's wrong: no file:///home/vitalis/repos/reactiveWeek5/src/main/scala/reactive/BuyerSeller.scala in akka.actor.typed.ActorRef[reactive.BuyerSeller.BuyOrQuit]RangePosition(file:///home/vitalis/repos/reactiveWeek5/src/main/scala/reactive/BuyerSeller.scala, 320, 320, 339)
+2021.01.21 18:46:07 INFO  shutting down Metals
+2021.01.21 18:46:07 INFO  Shut down connection with build server.
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+2021.01.21 18:46:07 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+Jan 21, 2021 6:46:07 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.3.Final
+2021.01.21 18:50:48 INFO  Started: Metals version 0.9.8 in workspace '/home/vitalis/repos/reactiveWeek5' for client sublime.
+2021.01.21 18:50:51 INFO  time: initialize in 2.68s
+2021.01.21 18:50:52 INFO  Attempting to connect to the build server...
+2021.01.21 18:50:52 INFO  Selected port 5031
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher1890379490280765533/bsp.socket'...
+Waiting for the bsp connection to come up...
+2021.01.21 18:50:53 WARN  no build target for: /home/vitalis/repos/reactiveWeek5/src/main/scala/reactive/BuyerSeller.scala
+Jan 21, 2021 6:50:53 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.3.Final
+Jan 21, 2021 6:50:53 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.4.Final
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher1890379490280765533/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher1890379490280765533/bsp.socket...
+Jan 21, 2021 6:50:53 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.4.Final
+2021.01.21 18:50:53 INFO  skipping build import with status 'Installed'
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.21 18:50:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+Jan 21, 2021 6:50:53 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2021.01.21 18:50:53 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher5569870688087848540/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher5569870688087848540/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher5569870688087848540/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.21 18:50:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.01.21 18:50:54 INFO  time: connected to build server in 1.22s
+2021.01.21 18:50:54 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.01.21 18:50:54 INFO  Started Metals http server at http://127.0.0.1:5031
+2021.01.21 18:50:54 INFO  time: imported build in 0.16s
+2021.01.21 18:51:01 INFO  no build target: using presentation compiler with only scala-library
+2021.01.21 18:51:02 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.01.21 18:51:02 INFO  time: indexed workspace in 8.63s
+2021.01.21 18:56:46 INFO  shutting down Metals
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2021.01.21 18:56:46 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+2021.01.21 18:56:46 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+Jan 21, 2021 6:56:47 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.3.Final
+2021.01.21 19:09:56 INFO  Started: Metals version 0.9.8 in workspace '/home/vitalis/repos/reactiveWeek5' for client sublime.
+2021.01.21 19:09:59 INFO  time: initialize in 2.72s
+2021.01.21 19:10:00 INFO  Attempting to connect to the build server...
+2021.01.21 19:10:00 INFO  Selected port 5031
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher6109365754785105904/bsp.socket'...
+Waiting for the bsp connection to come up...
+2021.01.21 19:10:00 WARN  no build target for: /home/vitalis/repos/reactiveWeek5/src/main/scala/reactive/BuyerSeller.scala
+Jan 21, 2021 7:10:00 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.3.Final
+Jan 21, 2021 7:10:00 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.4.Final
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher6109365754785105904/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher6109365754785105904/bsp.socket...
+Jan 21, 2021 7:10:01 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.4.Final
+2021.01.21 19:10:01 INFO  skipping build import with status 'Installed'
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.21 19:10:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.01.21 19:10:00 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher13419535730460519072/bsp.socket'...
+Waiting for the bsp connection to come up...
+Jan 21, 2021 7:10:01 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher13419535730460519072/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher13419535730460519072/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.21 19:10:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.01.21 19:10:01 INFO  time: connected to build server in 1.15s
+2021.01.21 19:10:01 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.01.21 19:10:01 INFO  Started Metals http server at http://127.0.0.1:5031
+2021.01.21 19:10:01 INFO  time: imported build in 0.11s
+2021.01.21 19:10:07 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.01.21 19:10:07 INFO  time: indexed workspace in 6.3s
+something's wrong: no file:///home/vitalis/repos/reactiveWeek5/src/main/scala/reactive/BuyerSeller.scala in akka.actor.typed.ActorRef[reactive.BuyerSeller.BuyOrQuit]RangePosition(file:///home/vitalis/repos/reactiveWeek5/src/main/scala/reactive/BuyerSeller.scala, 320, 320, 339)
+2021.01.21 19:24:57 INFO  shutting down Metals
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2021.01.21 19:24:57 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+2021.01.21 19:24:57 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+Jan 21, 2021 7:24:57 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.3.Final
+2021.01.23 15:48:51 INFO  Started: Metals version 0.9.8 in workspace '/home/vitalis/repos/reactiveWeek5' for client sublime.
+2021.01.23 15:48:54 INFO  time: initialize in 3.23s
+2021.01.23 15:48:56 INFO  Attempting to connect to the build server...
+2021.01.23 15:48:56 INFO  Selected port 5031
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher2387649321179029114/bsp.socket'...
+Waiting for the bsp connection to come up...
+Jan 23, 2021 3:48:56 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.3.Final
+Jan 23, 2021 3:48:56 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.4.Final
+Jan 23, 2021 3:48:56 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.4.Final
+2021.01.23 15:48:56 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+Jan 23, 2021 3:48:57 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2021.01.23 15:48:57 INFO  Started Metals http server at http://127.0.0.1:5031
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.6-15-209c2a5c...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/vitalis/repos/reactiveWeek5/.bloop'...
+[0m[32m[D][0m Loading project from '/home/vitalis/repos/reactiveWeek5/.bloop/reactiveweek5.json'
+[0m[32m[D][0m Loading project from '/home/vitalis/repos/reactiveWeek5/.bloop/reactiveweek5-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.4.
+[0m[32m[D][0m   => /home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.16.0/jline-3.16.0.jar
+[0m[32m[D][0m   => /home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.4/scala-compiler-2.13.4.jar
+[0m[32m[D][0m   => /home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar
+[0m[32m[D][0m   => /home/vitalis/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.4/scala-reflect-2.13.4.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'reactiveweek5', 'reactiveweek5-test'
+[0m[32m[D][0m Loading previous analysis for 'reactiveweek5-test' from '/home/vitalis/repos/reactiveWeek5/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Loading previous analysis for 'reactiveweek5' from '/home/vitalis/repos/reactiveWeek5/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher2387649321179029114/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher2387649321179029114/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.23 15:49:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.01.23 15:49:08 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher2646747637214738745/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher2646747637214738745/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher2646747637214738745/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.23 15:49:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vitalis/.cache/metals/bsp.trace.json
+2021.01.23 15:49:08 INFO  time: connected to build server in 13s
+2021.01.23 15:49:08 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.01.23 15:49:10 INFO  time: imported build in 0.48s
+2021.01.23 15:49:17 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.01.23 15:49:18 INFO  shutting down Metals
+2021.01.23 15:49:18 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+2021.01.23 15:49:18 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+Jan 23, 2021 3:49:19 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.3.Final
